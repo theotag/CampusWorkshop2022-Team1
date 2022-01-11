@@ -1,81 +1,142 @@
-section#contact {
-    background-color: #f9f9fb;
-    padding: 100px 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-section#contact .container {
-    max-width: 1200px;
-    margin: 0 auto;
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    background: #1fb3bf;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    box-sizing: border-box;
-    padding: 30px 10px;
-    border-radius: 15px;
-    box-shadow: 0px 10px 50px -10px #d6d6d6;
 }
 
-section#contact .title {
-    text-align: center;
-    color: #2a2a2a;
-    margin-bottom: 50px;
+.logo {
+    font-size: 2rem;
 }
 
-section#contact .title h6 {
-    font-size: 1em;
+.toggle {
+    display: none;
 }
 
-section#contact .title h3 {
-    font-size: 2.2em;
-}
-
-section#contact .container form {
+.menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 600px;
+    align-items: center;
+    list-style: none;
+    width: 550px;
 }
 
-section#contact .container form input {
-    width: 47%;
-    
+.menu li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-section#contact .container form input:hover,
-section#contact .container form textarea:hover {
-    border-bottom: 2px solid #1fb3fb;
+.btn {
+    border: 0;
+    background: #128d5a;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
 }
 
-section#contact .container form input,
-section#contact .container form textarea {
-    margin: 10px 0;
-    padding: 10px;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #e4e4ec;
-    transition: 0.2s;
+.btn.btn-secondary {
+    background: transparent;
+    border: 2px solid #128d5a;
+    color: #fff;
 }
 
-section#contact .container form textarea {
-    width: 100%;
-    resize: none;
-    height: 100px;
-    margin-bottom: 60px;
+/* Section Hero */
+.hero {
+    height: 85vh;
+    background: url('img/logo-full.png');
+    background-repeat: no-repeat;
+    background-size: 90vh;
+    background-position: center;
 }
 
-section#contact .container form button {
-    width: 192px;
-    height: 50px;
-    border-radius: 8px;
-    border: none;
-    background-color: #1fb3bf;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-    cursor: pointer;
-    outline: none;
-    margin: 0 auto;
+@media all and (max-width: 991px) {
+
+    header {
+        background: transparent;
+    }
+
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+    }
+
+    .logo {
+        position: relative;
+        z-index: 20;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+    .fermer {
+        display: none;
+    }
+
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .open .menu {
+        transform: translateX(0);
+    }
+}
+
+div{
+    color: #128d5a;
 }
