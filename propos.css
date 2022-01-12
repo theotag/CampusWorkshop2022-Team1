@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -16,10 +17,11 @@ header {
     color: #000;
     text-align: center;
     background: #1fb3bf;
-    background: url('img/logo-full.png');
-    background-repeat: no-repeat;
-    background-size: 60vh;
-    background-position: center;
+        height: 85vh;
+        background: url('logo-full.png');
+        background-repeat: no-repeat;
+        background-size: 60vh;
+        background-position: center;
 }
 
 
@@ -40,7 +42,7 @@ header nav a {
 
 
 header nav a:hover {
-    color: #000;
+    color: #fff;
     border-bottom: #919191 solid 1px;
 }
 
@@ -71,7 +73,7 @@ header .principal h4 {
 
 .offres {
     padding: 30px;
-    background: url('img/index.jpeg');
+    background: url('index.jpeg');
     background-position: center;
     color: #fff;
 }
@@ -162,4 +164,3 @@ footer .social-media p {
         margin-right: auto;
     }
 }
-
