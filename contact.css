@@ -3,10 +3,14 @@ header {
     color: #000;
     text-align: center;
     background: #1fb3bf;
-        
-        background-repeat: no-repeat;
-        background-size: 60vh;
-        background-position: center;
+    background: url('img/MicrosoftTeams-image.png');
+    background-repeat: no-repeat;
+    background-size: 16vh;
+    background-position: center;
+}
+
+body {
+    font-family: sans-serif;
 }
 
 
@@ -86,7 +90,7 @@ section#contact .container form {
 
 section#contact .container form input {
     width: 47%;
-    
+
 }
 
 section#contact .container form input:hover,
