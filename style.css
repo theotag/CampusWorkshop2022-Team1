@@ -52,7 +52,7 @@ html,body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("MicrosoftTeams-image.png");
+  background: url("img/MicrosoftTeams-image.png");
   height: 195px;
   background-size: 400px;
   position: relative;
@@ -182,7 +182,7 @@ nav {
 /* Section Hero */
 .hero {
     height: 85vh;
-    background: url('logo-full.png');
+    background: url('img/logo-full.png');
     background-repeat: no-repeat;
     background-size: 90vh;
     background-position: center;
