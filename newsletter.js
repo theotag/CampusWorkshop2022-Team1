@@ -1,3 +1,10 @@
+let toggle = document.querySelector('.toggle');
+let body = document.querySelector('body');
+
+toggle.addEventListener('click', function() {
+    body.classList.toggle('open');
+})
+
 window.addEventListener("load", function(){
     this.setTimeout(
         function open(event){
