@@ -155,15 +155,26 @@ nav {
     .open .menu {
         transform: translateX(0);
     }
-     .premieres-presentations .gauche {
+    .premieres-presentations {
+        background-color: #222f3e;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+
+    .premieres-presentations .gauche {
         width: 100%;
-        margin-right: 10px;
+        text-align  : center;
+
+
     }
 
     .premieres-presentations .droite {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        content: url("img/MicrosoftTeams-image.png");
+        width: 300px;
+        margin-right: 30px;
+
+       
     }
 }
 
@@ -182,12 +193,16 @@ div {
 .premieres-presentations .gauche {
     width: 60%;
     margin-right: 10px;
+
 }
 
-.premieres-presentation .droite {
-    margin-top: 17px;
+.premieres-presentations .droite {
+    content: url("img/MicrosoftTeams-image.png");
+    width: 300px;
+    text-align: center;
     margin-left: 10%;
 }
+
 
 .offres {
     padding: 30px;
@@ -269,7 +284,6 @@ footer .social-media p {
     width: 20px;
     cursor: pointer;
 }
-
 
    
 
