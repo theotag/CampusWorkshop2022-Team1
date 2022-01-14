@@ -122,5 +122,29 @@
     background-size: 45vh;
     background-position: center;
   }
+  .wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background: #fff;
+    width: 360px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    display: none;
+  }
+
+  .wrapper .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("img/MicrosoftTeams-image.png");
+    height: 175px;
+    background-size: 360px;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+  }
+
 }
 
