@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
-    
 }
 
 body {
@@ -11,51 +14,142 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
 header {
-    height: 80vh;
-    background-position: center;
-    color: #000;
-    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
     background: #1fb3bf;
-        height: 85vh;
-        background: url('logo-full.png');
-        background-repeat: no-repeat;
-        background-size: 60vh;
-        background-position: center;
-}
-
-
-
-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    color: #000;
-}
-
-header nav a {
-    color: #18212b;
-    text-decoration: none;
-    margin-right: 50px;
-}
-
-
-header nav a:hover {
     color: #fff;
-    border-bottom: #919191 solid 1px;
+    padding: 0 2rem;
+
 }
 
-header .principal {
-    margin-top: 40px;
+nav {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header .principal h4 {
-    margin-top: -20px;
-    padding: 20px;
+.logo {
+    font-size: 2rem;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 550px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    border: 0;
+    background: #128d5a;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.btn.btn-secondary {
+    background: transparent;
+    border: 2px solid #128d5a;
+    color: #fff;
+}
+
+/* Section Hero */
+.hero {
+    height: 85vh;
+    background: url('img/logo-full.png');
+    background-repeat: no-repeat;
+    background-size: 90vh;
+    background-position: center;
+}
+
+@media all and (max-width: 991px) {
+
+    header {
+        background: transparent;
+    }
+
+    .toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+    }
+
+    .logo {
+        position: relative;
+        z-index: 20;
+    }
+
+    .ouvrir {
+        display: block;
+    }
+
+    .fermer {
+        display: none;
+    }
+
+    .open .ouvrir {
+        display: none;
+    }
+
+    .open .fermer {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #000;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        transition: transform 1s;
+    }
+
+    .menu li a {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .open .menu {
+        transform: translateX(0);
+    }
+}
+
+div{
+    color: #128d5a;
 }
 
 .premieres-presentations {
@@ -73,7 +167,7 @@ header .principal h4 {
 
 .offres {
     padding: 30px;
-    background: url('index.jpeg');
+    background: url('img/index.jpeg');
     background-position: center;
     color: #fff;
 }
@@ -164,3 +258,4 @@ footer .social-media p {
         margin-right: auto;
     }
 }
+

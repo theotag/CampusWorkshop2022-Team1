@@ -1,50 +1,8 @@
-header {
-    background-position: center;
-    color: #000;
-    text-align: center;
-    background: #1fb3bf;
-    background: url('img/MicrosoftTeams-image.png');
-    background-repeat: no-repeat;
-    background-size: 16vh;
-    background-position: center;
-}
 
-body {
-    font-family: sans-serif;
-}
-
-
-
-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-    color: #000;
-}
-
-header nav a {
-    color: #18212b;
-    text-decoration: none;
-    margin-right: 50px;
-}
-
-
-header nav a:hover {
-    color: black;
-    border-bottom: #919191 solid 1px;
-}
-
-header .principal {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-header .principal h4 {
-    margin-top: -20px;
-    padding: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -90,7 +48,7 @@ section#contact .container form {
 
 section#contact .container form input {
     width: 47%;
-
+    
 }
 
 section#contact .container form input:hover,
