@@ -184,6 +184,11 @@ div {
     margin-right: 10px;
 }
 
+.premieres-presentation .droite {
+    margin-top: 17px;
+    margin-left: 10%;
+}
+
 .offres {
     padding: 30px;
     background: url('img/index.jpeg');
