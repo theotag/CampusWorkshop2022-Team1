@@ -90,7 +90,7 @@ nav {
 
 @media all and (max-width: 991px) {
   .hero {
-    height: 85vh;
+    height: 40vh;
     background: url('img/logo-full.png');
     background-repeat: no-repeat;
     background-size: 45vh;
