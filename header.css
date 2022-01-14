@@ -63,13 +63,6 @@ nav {
 }
 
 /* Section Hero */
-.hero {
-    height: 85vh;
-    background: url('img/logo-full.png');
-    background-repeat: no-repeat;
-    background-size: 90vh;
-    background-position: center;
-}
 
 
 @media all and (max-width: 991px) {
@@ -132,6 +125,7 @@ nav {
     .open .menu {
         transform: translateX(0);
     }
+    
 }
 
 div{

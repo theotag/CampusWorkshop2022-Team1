@@ -106,3 +106,21 @@
   margin-top: 12px;
 }
 
+.hero {
+  height: 85vh;
+  background: url('img/logo-full.png');
+  background-repeat: no-repeat;
+  background-size: 90vh;
+  background-position: center;
+}
+
+@media all and (max-width: 991px) {
+  .hero {
+    height: 85vh;
+    background: url('img/logo-full.png');
+    background-repeat: no-repeat;
+    background-size: 45vh;
+    background-position: center;
+  }
+}
+
