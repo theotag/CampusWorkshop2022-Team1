@@ -128,7 +128,7 @@
     top: 50%;
     transform: translate(-50% , -50%);
     background: #fff;
-    width: 320px;
+    width: 300px;
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
@@ -140,8 +140,8 @@
     justify-content: center;
     align-items: center;
     background: url("img/MicrosoftTeams-image.png");
-    height: 150px;
-    background-size: 320px;
+    height: 130px;
+    background-size: 300px;
     position: relative;
     border-radius: 12px 12px 0 0;
   }
