@@ -1,6 +1,6 @@
 # CampusWorkshop2022-Team1
 
-Le déroulement de nos 2 semaines en workshop : On c'est attribuer tous des missiosn pour le lendemain avec des objectifs a accomplire a la fin de journée. La premiere semaine on a pauser les bases du sites donc on etait principalement sur le HTML/CSS. Pour la deuxieme semaine on c'est plus concacrée au coter technique donc le JAVASCRIPT, le dossier JASON et du coup le REEADME. Grace a cette organisation on a toujours été dans les temps du coup pas vraiment de stresse pour le projet 
+Le déroulement de nos 2 semaines en workshop : On c'est attribuer tous des missiosn pour le lendemain avec des objectifs a accomplire a la fin de journée. La premiere semaine on a pauser les bases du sites donc on etait principalement sur le HTML/CSS. Pour la deuxieme semaine on c'est plus concacrée au coter technique donc le JAVASCRIPT, le dossier JSON et du coup le README. Grace a cette organisation on a toujours été dans les temps du coup pas vraiment de stresse pour le projet 
 
 
 
