@@ -13,7 +13,6 @@ button{
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    padding-top: 500px;
         height: 85vh;
         background-repeat: no-repeat;
         background-size: 90vh;
@@ -63,7 +62,6 @@ button{
         flex-direction: column;
         align-items: center;
         cursor: pointer;
-        padding-top: 150px;
     }
 
     .collumn img {
