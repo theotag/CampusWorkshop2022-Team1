@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-button{
-    display: none;
-}
 
 html {
     scroll-behavior: smooth;
@@ -27,7 +24,9 @@ html {
 body {
     font-family: sans-serif;
 }
-
+button{
+    display: none;
+}
 .premieres-presentations {
     background-color: #222f3e;
     color: #fff;

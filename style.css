@@ -113,9 +113,7 @@
 }
 
 @media all and (max-width: 991px) {
-  *{
-    background-color: #000;
-  }
+  
   .hero {
     height: 85vh;
     background: url('img/logo-full.png');
