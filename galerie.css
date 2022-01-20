@@ -4,24 +4,40 @@
     box-sizing: border-box;
 }
 
-button{
-    display: none;
-}
+
 
 #gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    padding-top: 150px;
+    padding-top: 500px;
+    background: url('img/MicrosoftTeams-image.png');
+        height: 85vh;
+        background-repeat: no-repeat;
+        background-size: 90vh;
+        background-position: center;
+}
+
+.collumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .collumn img {
-    width: 160px;
-    height: 160px;
-
+    width: 300px;
+    height: 300px;
+    
+    
+    
 
 }
+
+.div .gallery:hover { 
+    color: black;
+}
+
 
 .collumn img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -45,6 +61,7 @@ button{
         padding: 0;
         box-sizing: border-box;
     }
+
     #gallery {
         display: flex;
         flex-direction: column;
@@ -75,5 +92,5 @@ button{
         align-items: center;
 
     }
-    
-  }
+
+}
