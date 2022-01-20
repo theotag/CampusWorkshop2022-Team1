@@ -14,7 +14,6 @@ button{
     align-items: center;
     cursor: pointer;
     padding-top: 500px;
-    background: url('img/MicrosoftTeams-image.png');
         height: 85vh;
         background-repeat: no-repeat;
         background-size: 90vh;
@@ -58,11 +57,6 @@ button{
 }
 
 @media all and (max-width: 991px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
 
     #gallery {
         display: flex;
