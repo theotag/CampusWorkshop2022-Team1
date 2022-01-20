@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenu sur notre site !</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="header.css">
-    <script src="newsletter.js" async></script>
+    <script src="script.js" async></script>
 </head>
 <body>
 
     <header>
-        <nav>
+        <nav class="nav">
             <div class="logo">
                 <i class="fas fa-rocket"></i>
             </div>
@@ -26,7 +27,12 @@
                 <li><a href="propos.html">A propos</a></li>
                 <li><a href="galerie.html">Retour Clients</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#">Partenaire</a></li>
+                <li>
+                  <a href="#">Partenaire</a>
+                  <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                  <ul class="htmlCss-sub-menu sub-menu">
+                  </ul>
+                </li>
             </ul>
         </nav>
     </header>

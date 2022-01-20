@@ -1,4 +1,5 @@
 
+
 html {
     font-size: 16px;
 }
@@ -34,7 +35,6 @@ nav {
 .toggle {
     display: none;
 }
-
 .menu {
     display: flex;
     justify-content: space-between;
@@ -48,25 +48,49 @@ nav {
     text-decoration: none;
 }
 
-.btn {
-    border: 0;
-    background: #128d5a;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-}
 
-.btn.btn-secondary {
-    background: transparent;
-    border: 2px solid #128d5a;
+
+/* Section partenaire */
+.menu li:hover .htmlcss-arrow{
+  transform: rotate(180deg);
+  }
+
+.menu li .arrow{
+    /* background: red; */
+    height: 100%;
+    width: 22px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
     color: #fff;
-}
-
-/* Section Hero */
-
+    transition: all 0.3s ease;
+  }
+.menu li .sub-menu{
+    position: absolute;
+    top: 100%;
+    right: 1.9%;
+    width: 8%;
+    line-height: 40px;
+    background: #1fb3bf     ;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+    display: none;
+    z-index: 2;
+  }
+.menu li:hover .htmlCss-sub-menu{
+    display: block;
+  }
+.menu li .sub-menu li{
+    padding: 0 22px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+.menu li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  }
 
 @media all and (max-width: 991px) {
-
     header {
         background: transparent;
     }
@@ -105,7 +129,7 @@ nav {
         top: 0;
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: 150vh;
         background: #000;
         flex-direction: column;
         padding: 2rem;
@@ -125,9 +149,51 @@ nav {
     .open .menu {
         transform: translateX(0);
     }
-    
+/** section partenaire*/
+.menu li .arrow{
+    display: inline-block;
+}
+
+.menu li{
+    display: block;
+    white-space: nowrap;
+    height: 60px;
+  }
+.menu li .sub-menu{
+    position: relative;
+    top: 0;
+    left: 7%;
+    box-shadow: none;
+    display: none;
+}
+.menu li .sub-menu li{
+  border-bottom: none;
+  font-size: 25px;
+  width: 200px;
+}
+
+.menu li .sub-menu a{
+    font-size: 20px;
+}
+.menu li:hover .htmlcss-arrow{
+  transform: rotate(0deg);
+  }  
+.menu li:hover .htmlCss-sub-menu{
+    display: none;
+  }
+.nav.show1 .menu .htmlCss-sub-menu{
+      display: block;
+      background-color: #000;
+      
+    }
+.nav.show1 .menu .htmlcss-arrow {
+        transform: rotate(180deg);
+}  
 }
 
 div{
     color: #128d5a;
 }
+
+
+  

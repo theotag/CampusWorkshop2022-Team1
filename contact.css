@@ -5,7 +5,13 @@
     box-sizing: border-box;
 }
 
-
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 section#contact {
     background-color: #f9f9fb;
     padding: 150px 0;
