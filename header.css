@@ -161,6 +161,7 @@ nav {
   }
 .menu li .sub-menu{
     position: relative;
+    width: 200px;
     top: 0;
     left: 7%;
     box-shadow: none;
