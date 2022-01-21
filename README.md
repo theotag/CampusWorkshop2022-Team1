@@ -19,7 +19,10 @@ Blog : Cette page permet au clients de pouvoir parler avec d'autre personne qui 
 
 Contact : Vous pouvez communiquer avec des gens du site si vous avez une demande ou bien meme un probleme. 
 
-Partenaire : 
+Partenaire : Vous pouvez à l'aide d'un menu déroulant voir nos partenaire et en rajouter comme en enlever à l'aide du fichier JSON.
 
+retour experience : Il n'est pas complet mais permet de voir des retours de client à l'aide d'image de leur projet et d'un texte qui l'explique.
 
-Pour le responsive : Le site est assez responsive 
+blog : Regroupe les commentaires des utilisateurs accompagnées d'image, c'est daté et accompagné du pseudo de l'utilisateur et son avis. 
+
+Pour le responsive : Le site est adapter pour une taille d'écran de pc et l'écran d'un portable
